@@ -1,0 +1,17 @@
+.dark{
+    --background-color: #000; 
+    --text-color: #ffff;
+    background-color: var(--background-color);
+    color: var(--text-color) !important;
+}
+.bg-white{
+    --background-color: white; 
+    --text-color: black;
+}
+.nav-link{
+    color: inherit !important;
+}
+.navbar-brand{
+    color: inherit;
+    transition: .3s;
+}
